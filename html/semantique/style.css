@@ -1,0 +1,72 @@
+/* Reset css : Remise à zéro */
+
+/* Toutes les balises */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #464646;
+    padding: 20px;
+}
+
+header {
+    background-color: #f5f5dc;
+    padding: 20px;
+}
+
+section {
+    background-color: #ffe4c4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+article {
+    background-color: #eeffc4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    color: red;
+}
+
+aside {
+    background-color: #c4fcff;
+    padding: 20px;
+    text-align: right;
+}
+
+img {
+    width: 200px;
+    border: solid 3px darkblue;
+}
+
+h2 {
+    background-color: lightgrey;
+    border-bottom: solid 2px #000000;
+    padding: 0 0 10px 0;
+    color: #000000;
+}
+
+p {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #eec4da;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+footer h2 {
+    background-color: transparent;
+    color: darkolivegreen;
+}
+
+footer {
+    background-color: #9c1f60;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
