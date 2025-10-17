@@ -1,0 +1,62 @@
+/* Reset css : Remise à zéro */
+
+/* Toutes les balises */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #464646;
+    padding: 20px;
+}
+
+header {
+    background-color: #2d3e50;
+    padding: 20px;
+}
+
+nav {
+    background-color: transparent;
+}
+
+/* Retrait des puces qui s'affichent par défaut  */
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/* Retrait du soulignement des liens par défaut  */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Après l'affichage du Prébom et du Nom on contraint tous les éléments à être poussés vers la droite.*/
+#identite {
+    margin-right: auto;
+}
+
+/*----------------------------------
+MAIN
+------------------------------------*/
+main {
+    border: solid 4px red;
+}
+
+/*----------------------------------
+SECTION : Présentation
+------------------------------------*/
+ {
+    border: solid 4px red;
+}
+
+
+/*----------------------------------
+FOOTER
+------------------------------------*/
+footer {
+    border: solid 4px #377f10;
+}
