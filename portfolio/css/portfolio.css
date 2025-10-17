@@ -35,7 +35,7 @@ a {
 }
 
 /* Après l'affichage du Prébom et du Nom on contraint tous les éléments à être poussés vers la droite.*/
-#identite {
+#identity {
     margin-right: auto;
 }
 
@@ -43,20 +43,55 @@ a {
 MAIN
 ------------------------------------*/
 main {
-    border: solid 4px red;
+    border: solid 1px red;
 }
 
 /*----------------------------------
 SECTION : Présentation
 ------------------------------------*/
- {
-    border: solid 4px red;
+#section-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(135deg, #2C3E50 0%, #3498DB 100%);
+    color: #ffffff;
+    padding: 60px 40px;
 }
 
+#section-presentation h1 {
+    font-size: 50px;
+}
+
+#section-presentation h2 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#section-presentation p {
+    font-size: 22px;
+}
+
+#section-presentation button {
+    padding: 12px 30px;
+    background-color: #3498DB;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+#section-presentation button:hover {
+    background-color: #19547b;
+}
 
 /*----------------------------------
 FOOTER
 ------------------------------------*/
 footer {
-    border: solid 4px #377f10;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d3e50;
+    color: #ffffff;
+    padding: 20px;
 }
